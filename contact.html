@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <section id="contact">
+      <h4>Contact</h4>
+      <form>
+        <div>
+          <input
+            type="text"
+            placeholder="Nom*"
+            pattern="\w{3,16}"
+            name="name"
+            required
+          />
+          <input type="email" placeholder="Email*" name="email" required />
+        </div>
+        <input
+          class="width-input"
+          type="number"
+          placeholder="tel*"
+          name="tel"
+          required
+        />
+        <textarea
+          class="width-input"
+          name="com"
+          id="com"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <input class="width-input" type="submit" value="Envoyer" />
+      </form>
+    </section>
+  </body>
+</html>
