@@ -47,6 +47,10 @@ textarea {
     border-radius: 5px;
     box-sizing: border-box;
 }
+textarea::placeholder {
+    font-weight: 700;
+    color: black;
+}
 
 .comment {
     min-height: 300px;
@@ -70,6 +74,7 @@ input[type="submit"] {
     border-radius: 5px;
 }
 input::placeholder {
+    font-weight: 700;
     color:black;
 }
 input[type="submit"]:hover {
