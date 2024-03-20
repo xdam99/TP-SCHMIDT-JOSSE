@@ -1,7 +1,8 @@
 
 form {
-    width: 60vw;
-    margin: 0 auto;
+    width: 80%;
+    margin: 0 auto; 
+    margin-bottom: 20px; 
     background-color: #202020;
     padding: 40px;
     display: flex;
@@ -46,6 +47,11 @@ textarea {
     box-sizing: border-box;
 }
 
+.comment {
+    min-height: 300px;
+    max-height: 600px;
+}
+
 input[type="submit"] {
     padding: 10px 20px;
     color: #101010;
@@ -55,9 +61,12 @@ input[type="submit"] {
     border: none;
     cursor: pointer;
     transition: background-color 300ms, color 300ms;
+    margin-top: 30px;
+    border-radius: 5px;
 }
 
 input[type="submit"]:hover {
     color: white;
     background-color: #101010;
+    border: 1px solid red;
 }

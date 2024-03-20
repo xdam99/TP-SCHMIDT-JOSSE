@@ -1,7 +1,9 @@
 * {
     font-family: 'Roboto';
     scroll-behavior: smooth;
+   height: 100%,
 }
+
 body {
     background-color: #101010;
 }
