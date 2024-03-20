@@ -1,3 +1,5 @@
+console.log("LAURA SCHMIDT - DAMIEN JOSSE | 3WA DFS")
+
 let header = document.querySelector('#header')
 
 window.addEventListener('scroll', ()=>{
