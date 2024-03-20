@@ -103,3 +103,12 @@ footer {
     width: 100px;
     height: 100px;
 }
+#socials-clonehero-box {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.socials-clonehero {
+    width: 75px;
+    height: 75px;
+}
