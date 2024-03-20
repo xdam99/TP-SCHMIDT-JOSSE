@@ -19,11 +19,12 @@ p {
 }
 /*HEADER*/
 header {
+    z-index: 9999;
     overflow: hidden;
     width: 100%;
     height: 100px;
     background-color: #202020;
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     transition: height 300ms, background-color 300ms;
@@ -62,7 +63,7 @@ a:hover {
 #banner {
     width: 100%;
     height: 80vh;
-    background-color: #202020;
+    background-color: #ffffff;
 }
 /*description*/
 #description {
@@ -118,7 +119,7 @@ footer {
 }
 #box-names {
     display: flex;
-    width: 30%;
+    width: 20%;
     justify-content: space-around;
 }
 .name {
