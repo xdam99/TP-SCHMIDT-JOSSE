@@ -55,6 +55,8 @@ a:hover {
 }
 /*description*/
 #description p {
+    margin: 0 auto;
+    width: 50%;
     text-align: justify;
 }
 /*streamers*/
@@ -86,6 +88,9 @@ a:hover {
     text-align: center;
 }
 /*FAQ*/
+#FAQ {
+    height: 500px;
+}
 .questions-box {
     background-color: #ffffff;
     border-radius: 20px;
