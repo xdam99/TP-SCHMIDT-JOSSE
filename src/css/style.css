@@ -100,7 +100,12 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
-#name {
+#box-names {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+.name {
     font-size: 1.5rem;
     font-family: "bebas neue";
 }
