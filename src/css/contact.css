@@ -53,6 +53,10 @@ textarea {
     max-height: 600px;
 }
 
+.comment::placeholder {
+    color: black;
+}
+
 input[type="submit"] {
     padding: 10px 20px;
     color: #101010;
@@ -65,7 +69,9 @@ input[type="submit"] {
     margin-top: 30px;
     border-radius: 5px;
 }
-
+input::placeholder {
+    color:black;
+}
 input[type="submit"]:hover {
     color: white;
     background-color: #101010;
