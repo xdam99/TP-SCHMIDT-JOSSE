@@ -51,10 +51,12 @@ a {
     transition: border-bottom 300ms;
 }
 a:hover {
-    border-bottom: #ffffff 3px solid;
+    border-bottom: #780000 3px solid;
 }
 /*description*/
 #description p {
+    margin: 0 auto;
+    width: 50%;
     text-align: justify;
 }
 /*streamers*/
@@ -84,23 +86,6 @@ a:hover {
     text-transform: uppercase;
     text-align: center;
 }
-/*FAQ*/
-.questions-box {
-    background-color: #ffffff;
-    border-radius: 20px;
-    padding: 20px;
-}
-details {
-    padding: 20px;
-    color: white;
-    margin: 10px;
-    background-color: #202020;
-}
-summary {
-    font-family: 'Bebas Neue';
-    text-transform: uppercase;
-}
-
 /*footer*/
 footer {
     background-color: black;
