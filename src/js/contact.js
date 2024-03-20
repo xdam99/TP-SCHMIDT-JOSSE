@@ -5,6 +5,7 @@ submit.addEventListener("click", () => {
     console.log("hello world");
     if (comment.value === "") {
         console.log("T'as oublié quelque chose");
+
     }
 });
 
