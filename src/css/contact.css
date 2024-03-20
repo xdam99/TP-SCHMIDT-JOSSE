@@ -32,7 +32,7 @@ input[type="email"] {
     margin: 0;
     border: none;
     background-color: #D3D3D3;
-    color: white;
+    color: black;
     border-radius: 5px;
     box-sizing: border-box;
 }
@@ -43,7 +43,7 @@ textarea {
     margin-top: 10px;
     border: none;
     background-color: #D3D3D3;
-    color: white;
+    color: black;
     border-radius: 5px;
     box-sizing: border-box;
 }
