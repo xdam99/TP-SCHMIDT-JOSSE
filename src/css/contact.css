@@ -1,0 +1,42 @@
+#contact {
+    height: 50vh;
+}
+form {
+    width: 30vw;
+    margin: 0 auto;
+    background-color: #202020;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form > div {
+    width: 100%;
+    display: flex;
+}
+input {
+    border: none;
+    width: 40%;
+    margin: 10px auto;
+}
+textarea {
+    border: none;
+}
+.width-input {
+    width: 80%;
+    max-width: 80%;
+    min-width: 80%;
+}
+input[type="submit"] {
+    padding: 10px;
+    color: #101010;
+    background-color: white;
+    text-transform: uppercase;
+    font-family: 'bebas neue';
+    transition: background-color 300ms, color 300ms;
+}
+input[type="submit"]:hover {
+    color: white;
+    background-color: #101010;
+}
