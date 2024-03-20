@@ -18,7 +18,7 @@ p {
 /*HEADER*/
 header {
     width: 100%;
-    height: 10vh;
+    height: 100px;
     background-color: #202020;
     position: relative;
     top: 0;
@@ -61,7 +61,6 @@ a:hover {
 #streamers {
     width: 100%;
     height: 80vh;
-
 }
 #streamers__box {
     width: 100%;

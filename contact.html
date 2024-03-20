@@ -3,6 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./src/css/contact.css" />
     <link rel="stylesheet" href="./src/css/style.css" />
     <link rel="stylesheet" href="./src/css/normalize.css" />
@@ -21,30 +31,32 @@
     <section id="contact">
       <h1>Contact</h1>
       <form>
-        <div>
-          <input
-            type="text"
-            placeholder="Nom*"
-            pattern="\w{3,16}"
-            name="name"
-            required
-          />
+        <div class="form-container">
+          <div class="name-num">
+            <input
+              type="text"
+              placeholder="Nom*"
+              pattern="\w{3,16}"
+              name="name"
+              required
+            />
+            <input
+              class="width-input"
+              type="number"
+              placeholder="tel*"
+              name="tel"
+              required
+            />
+          </div>
+
           <input type="email" placeholder="Email*" name="email" required />
+          <textarea
+            class="width-input"
+            name="com"
+            id="com"
+            placeholder="Commentaire*"
+          ></textarea>
         </div>
-        <input
-          class="width-input"
-          type="number"
-          placeholder="tel*"
-          name="tel"
-          required
-        />
-        <textarea
-          class="width-input"
-          name="com"
-          id="com"
-          cols="30"
-          rows="10"
-        ></textarea>
         <input class="width-input" type="submit" value="Envoyer" />
       </form>
     </section>
