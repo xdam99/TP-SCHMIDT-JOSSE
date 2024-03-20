@@ -53,6 +53,11 @@ a {
 a:hover {
     border-bottom: #780000 3px solid;
 }
+/*banner*/
+#banner {
+    height: 700px;
+    background-color: #202020;
+}
 /*description*/
 #description p {
     margin: 0 auto;
