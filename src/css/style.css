@@ -1,0 +1,158 @@
+* {
+    font-family: 'Roboto';
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #101010;
+}
+h1, h2, h3, h4 {
+    color: white;
+    text-transform: uppercase;
+    font-family: "bebas neue";
+    text-align: center;
+    font-size: 2rem;
+}
+p {
+    color: white;
+}
+/*HEADER*/
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: #202020;
+}
+.container {
+    margin: 0 auto;
+    width: 60vw;
+    height: 100%;
+}
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo {
+    width: 100px;
+    height: 70px;
+}
+nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: #20202000 3px solid;
+    transition: border-bottom 300ms;
+}
+a:hover {
+    border-bottom: #ffffff 3px solid;
+}
+/*description*/
+#description p {
+    text-align: justify;
+}
+/*streamers*/
+#streamers {
+    width: 100%;
+    height: 80vh;
+
+}
+#streamers__box {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+.streamer {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.streamer img {
+    width: 100%;
+}
+.streamer p {
+    text-transform: uppercase;
+    text-align: center;
+}
+/*FAQ*/
+.questions-box {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+}
+details {
+    padding: 20px;
+    color: white;
+    margin: 10px;
+    background-color: #202020;
+}
+summary {
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
+}
+/*form*/
+#contact {
+    height: 50vh;
+}
+form {
+    width: 30vw;
+    margin: 0 auto;
+    background-color: #202020;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form > div {
+    width: 100%;
+    display: flex;
+}
+input {
+    border: none;
+    width: 40%;
+    margin: 10px auto;
+}
+textarea {
+    border: none;
+}
+.width-input {
+    width: 80%;
+    max-width: 80%;
+    min-width: 80%;
+}
+input[type="submit"] {
+    padding: 10px;
+    color: #101010;
+    background-color: white;
+    text-transform: uppercase;
+    font-family: 'bebas neue';
+    transition: background-color 300ms, color 300ms;
+}
+input[type="submit"]:hover {
+    color: white;
+    background-color: #101010;
+}
+/*footer*/
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#name {
+    font-size: 1.5rem;
+    font-family: "bebas neue";
+}
+#logo-3WA {
+    width: 100px;
+    height: 100px;
+}
