@@ -36,11 +36,15 @@
     </header>
 
     <section id="contact">
-      <h1>Contact</h1>
+      <h1 class="contactTitle">Contact</h1>
+      <!-- <div class="image-container">
+        <img src="./src/img/slash.jpg" alt="Description de l'image" />
+      </div> -->
       <form>
         <div class="form-container">
           <div class="name-num">
             <input
+              class="form-name"
               type="text"
               placeholder="Nom*"
               pattern="\w{3,16}"
@@ -48,14 +52,13 @@
               required
             />
             <input
-              class="width-input"
+              class="phone"
               type="text"
               placeholder="Tel*"
               name="tel"
               required
             />
           </div>
-
           <input type="email" placeholder="Email*" name="email" required />
           <textarea
             class="comment"

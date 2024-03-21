@@ -1,10 +1,24 @@
+body {
+    background: black;
+}
+.contactTitle {
+    color: white;
+}
+
+#contact {
+    display: flex ;
+    background-image: url(../img/slash.jpg);
+    background-repeat: no-repeat; 
+    background-position: left; 
+    background-color: black;
+}
 
 form {
-    width: 80%;
+    width: 50%;
     margin: 0 auto; 
     margin-top: 200px;
-    margin-bottom: 20px; 
-    background-color: #202020;
+    margin-bottom: 200px; 
+    background-color: #202020aa;
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -72,6 +86,7 @@ input[type="submit"] {
     transition: background-color 300ms, color 300ms;
     margin-top: 30px;
     border-radius: 5px;
+    border: 1px solid black;
 }
 input::placeholder {
     font-weight: 700;
@@ -82,9 +97,11 @@ input[type="submit"]:hover {
     background-color: #101010;
     border: 1px solid red;
 }
+
 footer {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
 }
+
