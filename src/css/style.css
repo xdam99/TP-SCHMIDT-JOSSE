@@ -172,6 +172,9 @@ a:hover {
     width: 700px;
     height: 100%;
 }
+#multiplayer p {
+    text-align: justify;
+}
 /*footer*/
 footer {
     background-color: black;
@@ -193,7 +196,7 @@ footer {
     height: 100px;
 }
 #socials-clonehero-box {
-    width: 30%;
+
     display: flex;
     justify-content: space-between;
 }
@@ -201,4 +204,98 @@ footer {
     width: 75px;
     height: 75px;
 }
-
+@media (min-width: 1440px) {
+    body {
+        background-color: aqua;
+    }
+    #multiplayer > div {
+        width: 80%;
+    }
+}
+@media (max-width: 1440px) {
+    #multiplayer > div {
+        width: 80%;
+    }
+}
+@media (max-width: 1024px){
+    /*General*/
+    h1, h2, h3, h4 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 20px;
+    }
+    /*streamers*/
+    #streamers {
+        height: 500px;
+    }
+    /*avantages*/
+    #img-avantages {
+        width: 400px;
+        height: 260px;
+    }
+    #avantages > div > div {
+        width: 50%;
+        padding: 20px;
+    }
+    /*multiplayer*/
+    #multiplayer {
+        height: 60vh;
+    }
+    #img-multiplayer {
+        width: 400px;
+        height: 100%;
+    }
+    #multiplayer > div > div > div {
+        width: 40%;
+    }
+}
+@media (max-width: 768px){
+    /*header*/
+    nav {
+        width: 60%;
+    }
+    /*avantages*/
+    #avantages > div {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    #avantages > div > div {
+        width: 80%;
+    }
+    /*mutliplayer*/
+    #multiplayer {
+        height: 80vh;
+    }
+    #multiplayer > div > div {
+        flex-direction: column;
+    }
+    #multiplayer > div > div > div {
+        width: 100%;
+    }
+    #img-multiplayer {
+        width: 100%;
+    }
+    /*footer*/
+    .socials-clonehero {
+        width: 50px;
+        height: 50px;
+    }
+    .name {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 425px){
+    /**/
+    /*streamer*/
+    #streamers {
+        height: 100%;
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    #streamers__box {
+        display: flex;
+        flex-direction: column;
+    }
+}
