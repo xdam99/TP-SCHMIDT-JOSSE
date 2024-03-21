@@ -4,7 +4,6 @@ let header = document.querySelector('#header')
 let logoHeader = document.querySelector('#logo')
 
 window.addEventListener('scroll', ()=>{
-    console.log(scrollY)
     if(scrollY>=600){
         header.style.height = "75px"
         logoHeader.style.width = "75px"
@@ -22,8 +21,8 @@ let images = ["piste1.jpg","piste2.jpg","piste3.jpg"]
 
 let i = 0
 
-function carousel() {
+function changerImage() {
     imgAvantages.src = "./src/img/"+images[i]
     i = (i+1) % images.length
 }
-setInterval(carousel, 2000)
+setInterval(changerImage, 2000)
