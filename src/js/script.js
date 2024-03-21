@@ -18,3 +18,12 @@ window.addEventListener('scroll', ()=>{
 
 let imgAvantages = document.querySelector('#img-avantages')
 
+let images = ["piste1.jpg","piste2.jpg","piste3.jpg"]
+
+let i = 0
+
+function carousel() {
+    imgAvantages.src = "./src/img/"+images[i]
+    i = (i+1) % images.length
+}
+setInterval(carousel, 2000)
