@@ -3,11 +3,13 @@ body {
 }
 main {
     background-color: black;
+    height: 100vh;
 }
 .contactTitle {
     font-size: 70px;
     padding-top: 100px;
     color:white;
+    margin-bottom: 0;
 }
 
 #contact {
@@ -19,9 +21,9 @@ main {
 }
 
 form {
-    width: 50%;
+    width: 700px;
     margin: 0 auto; 
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 200px; 
     background-color: #404040aa;
     padding: 40px;
@@ -71,12 +73,14 @@ textarea::placeholder {
     color: black;
 }
 
-.comment {
+#com {
+    min-width: 700px; 
+    max-width: 700px;
     min-height: 300px;
     max-height: 600px;
 }
 
-.comment::placeholder {
+#com::placeholder {
     color: black;
 }
 
