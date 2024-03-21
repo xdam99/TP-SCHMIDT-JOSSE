@@ -204,20 +204,12 @@ footer {
     width: 75px;
     height: 75px;
 }
-@media (min-width: 1440px) {
-    body {
-        background-color: aqua;
-    }
-    #multiplayer > div {
-        width: 80%;
-    }
-}
 @media (max-width: 1440px) {
     #multiplayer > div {
         width: 80%;
     }
 }
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
     /*General*/
     h1, h2, h3, h4 {
         text-align: center;
@@ -287,7 +279,10 @@ footer {
     }
 }
 @media (max-width: 425px){
-    /**/
+    /*header*/
+    .header-box {
+        width: 90%;
+    }
     /*streamer*/
     #streamers {
         height: 100%;
@@ -297,5 +292,48 @@ footer {
     #streamers__box {
         display: flex;
         flex-direction: column;
+    }
+    /*avantages*/
+    #avantages {
+        height: 100%;
+    }
+    #img-avantages {
+        width: 100%;
+        height: 300px;
+    }
+}
+@media (max-width: 375px) {
+    /*general*/
+    p {
+        font-size: 1rem;
+    }
+    .description-box {
+        width: 90%;
+    }
+    /*banner*/
+    #banner {
+        height: 50vh;
+        background-size: cover;
+    }
+    /*streamers*/
+    #streamers {
+        padding-top: 0px;
+    }
+    #streamers__box {
+        width: 80%;
+    }
+    #multiplayer > div > div {
+        height: 100%;
+    }
+    #img-multiplayer {
+        object-fit: contain;
+    }
+    /*footer*/
+    #logo-3WA {
+        width: 50px;
+        height: 50px;
+    }
+    .name {
+        font-size: 0.75rem;
     }
 }
