@@ -145,6 +145,26 @@ a:hover {
     width: 100%;
     text-align: justify;
 }
+/*multiplayer*/
+#multiplayer {
+    width: 100%;
+    height: 50vh;
+    margin: 0 auto;
+}
+#multiplayer > div {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+#img-multiplayer {
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url('../img/multijoueur.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 /*footer*/
 footer {
     background-color: black;
