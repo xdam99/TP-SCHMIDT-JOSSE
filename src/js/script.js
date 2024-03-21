@@ -15,3 +15,6 @@ window.addEventListener('scroll', ()=>{
         logoHeader.style.height = "75px"
     }
 })
+
+let imgAvantages = document.querySelector('#img-avantages')
+

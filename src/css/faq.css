@@ -1,7 +1,8 @@
 /*FAQ*/
 #FAQ {
     padding-top: 200px;
-    height: 1000px;
+    margin-bottom: 100px;
+    height: 100%;
 }
 .questions-box {
     background-color: #747474;
