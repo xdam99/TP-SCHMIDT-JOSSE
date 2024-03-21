@@ -54,8 +54,10 @@ input[type="email"]
     border: none;
     background-color: #D3D3D3;
     color: black;
+    border: #00000000 5px solid;
     border-radius: 5px;
     box-sizing: border-box;
+    transition: border 300ms;
 }
 
 
@@ -107,7 +109,28 @@ input[type="submit"]:hover {
     background-color: #101010;
     border: 1px solid red;
 }
-
+@keyframes checker {
+    0% {
+        transform: rotate(5deg);
+        border: #780000 5px solid;
+    }
+    10% {
+        transform: rotate(-5deg);
+        border: #780000 5px solid;
+    }
+    20% {
+        transform: rotate(5deg);
+        border: #780000 5px solid;
+    }
+    30% {
+        transform: rotate(-5deg);
+        border: #780000 5px solid;
+    }
+    40% {
+        transform: rotate(0deg);
+        border: #00000000 5px solid;
+    }
+}
 
 @media screen and (max-width: 768px) {
     main {

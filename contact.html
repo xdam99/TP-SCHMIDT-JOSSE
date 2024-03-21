@@ -37,7 +37,7 @@
     <main>
       <h1 class="contactTitle">Contact</h1>
       <section id="contact">
-        <form>
+        <form id="form-contact">
           <div class="form-container">
             <div class="name-num">
               <input
@@ -45,19 +45,17 @@
                 type="text"
                 placeholder="Nom*"
                 pattern="\w{3,16}"
-                name="name"
-                required
+                name="name" this
               />
               <input
                 class="phone"
                 type="text"
                 placeholder="Tel*"
-                name="tel"
-                required
+                name="tel" this
               />
             </div>
-            <input type="email" placeholder="Email*" name="email" required />
-            <textarea name="com" id="com" placeholder="Commentaire*"></textarea>
+            <input class="email" type="email" placeholder="Email*" name="email" this/>
+            <textarea class="com" name="com" id="com" placeholder="Commentaire*" this></textarea>
           </div>
           <input class="width-input" type="submit" value="Envoyer" />
         </form>
@@ -93,6 +91,6 @@
       /></a>
     </footer>
 
-    <script src="./src/js/script.js"></script>
+    <script src="./src/js/contact.js"></script>
   </body>
 </html>
