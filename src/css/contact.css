@@ -98,10 +98,10 @@ input[type="submit"]:hover {
     border: 1px solid red;
 }
 
-footer {
+/* footer {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-}
+} */
 
