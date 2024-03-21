@@ -18,3 +18,8 @@ summary {
     font-family: 'Bebas Neue';
     text-transform: uppercase;
 }
+@media (max-width: 425px) {
+    #FAQ > div {
+        width: 100%;
+    }
+}
