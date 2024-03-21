@@ -72,8 +72,8 @@ a:hover {
 /*description*/
 #description {
     padding-top: 100px;
-    padding-bottom: 100px;
-    height: 400px;
+    padding-bottom: 50px;
+    height: 300px;
 }
 .description-box {
     background-color: #101010aa;
@@ -148,7 +148,7 @@ a:hover {
 /*multiplayer*/
 #multiplayer {
     width: 100%;
-    height: 50vh;
+    height: 80vh;
     margin: 0 auto;
 }
 #multiplayer > div {
