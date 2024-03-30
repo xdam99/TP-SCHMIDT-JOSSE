@@ -4,7 +4,7 @@
     "prenom":"Godefroy",
     "age":33,
     "activite":["tennis","informatique","foot"],
-    "adresse":{"commune":"Schaerbeek","cp":"1030"}
+    "adresse":{"commune":"Schaerbeek","cp":"1030"},
     "actif":true
     }
     ,
